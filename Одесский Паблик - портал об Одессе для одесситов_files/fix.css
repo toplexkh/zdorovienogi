@@ -1,0 +1,382 @@
+body{
+     font-family: Arial,sans-serif;
+}
+.float-left{
+	float:left;
+}
+.form-send-btn{
+    margin-left: 6px;
+}
+.add-announce{
+	margin-left: 0;
+}
+.large-news .hot-news-info li a span,.large-news .hot-news-info li a,.large-news .hot-news-info li p{
+   font-size: 11px;
+}
+.hot-news-info li a.author span{
+    margin-left: 5px;
+}
+.hot-news .short-description{
+    font-size: 15px;
+    line-height: 24px;
+    margin: 5px 0;	
+    margin: 5px 0;
+}		
+.large-news .btn {
+	margin-top: 20px;
+}
+.top-ten #top-ten-date-styler .jq-selectbox__text{
+	padding: 6px;
+}
+.radio-brn-wrapper{
+	width: 35px;
+	padding: 50px 12.5px 63px;
+}
+.poll-question{
+	padding-top: 8px;
+	padding-left: 6px;
+}
+.poll-sidebar .link-small{
+    font-size: 12px;
+    color: #d3a84e;
+	  cursor: pointer;
+}
+.link-small.pull-right{
+    padding-top: 4.5px;
+	  cursor: pointer;
+}
+.item-1{
+    margin-left: 15px;
+}
+.item-2{
+    margin-left: -15px;
+}
+.hot-news-right{
+    margin-top: 5px;
+}
+.hot-news-title{
+	margin-top:5px;
+}
+.hot-news-info{
+	//margin:0 0 4px 0;
+}
+.news-tab .nav-tabs{
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+.tab-content .news-tab-item{
+    margin-top: 7px;
+}
+.triple-dots{
+ 	width: 40px;
+	height: 8px;
+    margin:auto;
+}
+.triple-dots span.dot{
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background: #ddd;
+    margin-left: 4px;
+    float: left;
+    display: block;
+}	
+	.all-news-link:after {
+		right: -3px;
+	}
+	.all-news-link{
+		margin-right: 5px;
+	}
+	a.short-descriptions{
+		margin-bottom: -5px;
+	}
+	.news-tab-list hr{
+		margin:0px;
+	}
+	.top-ten .jq-selectbox__text{
+	    padding: 5px;
+	}
+	.mansory-news .mansory-news-title + hr{
+	    margin-bottom: -7px;
+	    margin-top: 7px;
+	}
+	    /*services_galery 1  */
+.font13{
+	float: left;
+}
+.hr-pages{
+	margin-top: 7px;
+}
+.services-title {
+	padding: 5px 0 5px 20px;
+}
+.services-title{
+	font-family: Arial, sans-serif;
+}
+.breadcrumb-custom a, .breadcrumb-custom{
+	font-family: "Noto serif", serif;
+	font-size: 25px;
+}
+.rec-item span {
+	vertical-align: top;
+	font-size: 10px;
+}
+.rec-item a{
+	margin-top:-5px;
+}
+.rec-item:after{
+	top:1px;
+}
+.rec-item h3{
+	font-size: 15px;
+}
+.rec-item a{
+	font-size: 10px;
+}
+@media (max-width: 1199px){
+	.font13{
+	float: none;
+}
+}
+@media (max-width: 991px){
+	.font13{
+	float: left;
+}
+}
+
+/*news*/
+.top-ten .jq-selectbox__text{
+	padding: 6px;
+	margin-left: 18px;
+}
+.wonderful-block p a{
+	margin: 0px;
+}
+#calendar{
+	margin-bottom: 10px;
+}
+.wonderful-block p{
+	margin-bottom: 0px;
+	padding: 3px 4px 3px 2px;
+}
+.link-small{
+ 	color:#d3a84e;
+}
+.poll-sidebar .link-small.pull-right{
+	margin: 4px -10px 0 0;
+}
+.top-ten .jq-selectbox__trigger-arrow{
+	background: url(../images/arr_top10.png) no-repeat;
+	top: -5px;
+  left: -20px;
+  width: 28px;
+  height: 24px;
+}
+.top-ten .jq-selectbox li span {
+	padding: 6px;
+}
+/*profile*/
+.nav-tabs>li.active>a:hover {
+	background: #d3a84e;
+	color: #fff;
+	cursor: pointer;
+}
+table.table tbody td.Noto-Serif,
+.Noto-Serif,
+#history tbody td>span,
+.karavel,.table thead td {
+	  font-family: 'Noto serif',serif;
+}
+table.table4>tbody>tr>td{
+	vertical-align: top;
+}
+ul.second-menu li[role='presentation'] {
+	background: #f3f0e7;
+	margin-left: 1px;
+	
+}
+ul.marg-bott li[role='presentation']{
+	margin-left:0px;
+}
+ul.second-menu li.active {
+	background: #d3a84e;
+	color: #fff;
+}
+.nav-tabs>li.active>a{
+	background: inherit;
+	color: #fff;
+}
+.no-margin a{
+	font-family: Arial,sans-serif;
+	margin-top: 10px;
+}
+.table thead td{
+	background: #f3f0e7;
+}
+.table td {
+	background: #f9f7f3;
+	margin:1px;
+	border: 1px solid #fff;
+}
+#history tbody td a.red {	
+	font-style: italic;
+}
+table.table tbody td{
+	font-family: Arial,sans-serif;
+}
+.table>tbody>tr>td{
+	color:#000;
+	vertical-align: middle;
+}
+#messages ul.nav-tabs li a{
+	margin-right: 1px;
+	margin-left: 1px;
+}
+#messages td.no-margin a {
+	font-style:italic;
+}
+ #in .table4 .only-red a.red{
+  margin: 0 3px;
+}
+.table4 .only-red{
+	margin-left: -3px;
+}
+#in-photo {
+	padding: 0px;
+	vertical-align: middle;
+}
+table.table4 span.Noto-Serif{
+	margin-top: -6px;
+}
+.orange-form div{
+	width: 95%;
+}
+.add-file, #file{
+	right: 6px;
+	bottom: 50px;
+}
+.orange-form button{
+	right: 6px;
+}
+.orange-form input.text{
+	height: 75px;
+}
+.orange-form h5{
+	font-size: 15px;
+}
+.wonderful-block p a{
+	margin: 0px;
+}
+/*poll*/
+.poll-quantity p.date_news i {
+	margin-left: 3px;
+	margin-right: 3px;
+}
+.poll-quantity p.date_news{
+ 	margin: 0 0 0 5px;
+
+}
+.static_news div:first-child p:first-child,.static_news div:first-child p.date_news{
+	font-size: 13px;
+}
+.static_news .icons-custom{
+	margin-right: -2px;
+}
+.poll-wrapper .poll-quantity {
+	margin-bottom: 5px;
+}
+.link-small{
+	color:#d3a84e;
+	font-size: 12px;
+}
+.label-result,
+.label-wrapper label {
+	font-size: 13px;
+	font-weight: normal;
+	font-family: Arial;
+	padding-left: 6px;
+}
+.label-result{
+	padding-bottom: 1px;
+}
+.static_news div:first-child p.date_news{
+	margin-left: 3px;
+}
+.poll-result-wrapper .radio-brn-wrapper{
+	padding:5px;
+}
+.poll-sidebar .poll-result-wrapper .radio-brn-wrapper {
+	padding: 0;
+}
+.poll-percentage{
+	margin-top: 2px;
+}
+
+
+.radio-brn-wrapper input, .label-wrapper label{
+	margin-bottom: 10px;
+}
+.form-send-btn{
+  margin-bottom: 5px;
+}
+.radio-brn-wrapper{
+padding: 45px 12.5px 67px;
+}
+.poll-question{
+	font-family: 'Noto Serif',serif;
+}
+.poll-question a{
+	color: #333;
+}
+
+.result-inner{
+	padding-left: 6px;
+}
+.label-result {
+  margin-left: -55px;
+  overflow: hidden;
+}
+.wonderful-block p a{
+	margin: 0px;
+}
+.wonderful-block p{
+	padding: 10px 5px 3px 2px;
+	margin-bottom: 0px
+}
+input[type='radio']{
+	position: relative;
+	z-index: 10;
+	
+}
+input[type='radio']:after{
+	content: '';
+	width: 7px;
+	height: 7px;
+	position: absolute;
+	left: 3px;
+	top:6px;
+	border-radius: 3.5px;
+	background: #d3a84e;
+	display: none;
+	z-index: 1;
+}
+input[type='radio']:before{
+	content: '';
+	width: 13px;
+	height: 13px;
+	position: absolute;
+	left: 0px;
+	top:3px;
+	border-radius: 6.5px;
+	background: #f3f0e7;
+	border: 1px solid #d7d6d2;
+	z-index: 1;
+	display: none;
+}
+/*input[checked]:after{
+display: block;
+}*/
+hr.col-sm-4 {
+  width: 100% !important;
+  margin-top: 5px !important;
+}

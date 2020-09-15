@@ -1,0 +1,312 @@
+@media (max-width: 991px) {
+  .pre-sprite, #sprite {
+    float: none;
+  }
+}
+.pre-sprite .rubric-ico a, #sprite .rubric-ico a {
+  font-size: 11px;
+}
+.pre-sprite .news-tab-list .video-news hr, #sprite .news-tab-list .video-news hr {
+  margin-bottom: 3px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1080px;
+  }
+}
+
+@media (min-width: 1900px) {
+#sprite {
+    min-width: 475px;
+    padding: 0;
+    margin: 11px auto 0;
+	min-height: 475px !important;
+    height: 475px ;
+}}
+@media (min-width: 1366px) {
+#sprite {
+    min-width: 475px;
+    padding: 0;
+    margin: 11px auto 0;
+	  height: 285px !important;
+    overflow: hidden !important;
+/*	max-height: 275px !important;*/
+}}
+@media (max-width: 1199px) and (min-width: 768px) {
+  #sprite {
+    height: 285px !important;
+    overflow: hidden !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .pre-sprite {
+    max-width: 181px;
+  }
+
+  #sprite {
+    width: 73% !important;
+    padding: 0;
+    margin: 11px 5px 0 0; 
+	
+  }
+
+  .right-col {
+    padding: 0px 15px 0 0;
+    max-width: 370px;
+    margin-left: 0px
+
+  }
+  .content-wrapper > div.col-sm-8.col-xs-12 {
+    max-width: 760px;
+    padding-right: 0px;
+  }
+  .content-wrapper > div.col-sm-8.col-xs-12 > .row {
+    margin:0px;
+  }
+  .content-wrapper > div.col-sm-8.col-xs-12 > .row > .col-xs-12.col-sm-6:first-child {
+    padding: 0 5px 0 0px;
+  }
+  .content-wrapper > div.col-sm-8.col-xs-12 > .row > .col-xs-12.col-sm-6:last-child {
+    padding: 0 10px;
+  }
+}
+@media (max-width: 1199px) {
+  .topbar-close {
+    margin-left: 0;
+    left: 15px;
+  }
+
+  .header-body .menu.small-menu{
+    margin-top: 10px;
+  }
+  .logo-block {
+    
+    
+   
+    text-align: center;
+  }
+
+  .header-body { 
+    float: none;
+  }
+  .header-body ul.menu {
+/*    width: 100%;*/
+    text-align: center;
+   /* padding-top: 10px;
+    border-top: 2px solid #F3F0E7;*/
+  }
+  .header-body ul.menu li {
+    display: inline-block;
+    float: none;
+    margin: 0;
+  }
+  
+
+  .under-menu-block {
+    display: inline-block;
+    float: left;
+    width: 61%;
+    padding: 0px 0px 15px !important;
+  }
+  .under-menu-block .small-menu {
+    border: none !important;
+    padding: 0 !important;
+  }
+
+  .user-submenu {
+
+  width: 100%;
+ 
+
+    text-align: center;
+    margin: 0;
+  }
+  .user-submenu li {
+    display: inline-block;
+    float: none;
+  }
+}
+@media (max-width: 991px) {
+  .logo-block{
+    width: 100%;
+    float:none;
+  }
+  section.content-conteiner {
+  }
+
+  .header-body ul.menu li a {
+    font-size: 11px;
+  }
+
+  .under-menu-block {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+  .under-menu-block .small-menu {
+    border-top: 2px solid #F3F0E7 !important;
+  }
+
+  .search-block {
+    width: 100%;
+    margin-left: 0;
+    float: none;
+  }
+}
+@media (max-width: 767px) {
+  .header-body ul.menu li a, .header-body .menu.small-menu li a {
+    font-size: 11px;
+    margin: 0;
+  }
+}
+
+
+
+@media (max-width: 479px) {
+  .user-submenu {
+    margin-top: 15px;
+  }
+  .user-submenu li {
+    display: block;
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media(max-width: 991px){
+    .pdng-r-none{
+        padding: 0 15px;
+    }
+    .foot_premiers_2,
+    .foot_events_2{
+        padding: 0 15px;
+        width: 50%;
+    }
+    .foot_events_2 ul{
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+}
+
+
+/********** SCROLL***************/
+.nano {
+  position : relative;
+  width    : 100%;
+  height   : 100%;
+  overflow : hidden;
+}
+.nano > .nano-content {
+  position      : absolute;
+  overflow      : scroll;
+  overflow-x    : hidden;
+  top           : 0;
+  right         : 0;
+  bottom        : 0;
+  left          : 0;
+}
+.nano > .nano-content:focus {
+  outline: thin dotted;
+}
+.nano > .nano-content::-webkit-scrollbar {
+  display: none;
+}
+.has-scrollbar > .nano-content::-webkit-scrollbar {
+  display: block;
+}
+.nano > .nano-pane {
+  background : rgba(0,0,0,.25);
+  position   : absolute;
+  width      : 10px;
+  right      : 0;
+  top        : 0;
+  bottom     : 0;
+  visibility : hidden\9; / Target only IE7 and IE8 with this hack /
+  opacity    : .01;
+  -webkit-transition    : .2s;
+  -moz-transition       : .2s;
+  -o-transition         : .2s;
+  transition            : .2s;
+
+}
+.nano > .nano-pane > .nano-slider {
+  background: #F3F0E7;
+  background: #D3A84E;
+  position              : relative;
+  margin                : 0 1px;
+
+}
+.nano:hover > .nano-pane, .nano-pane.active, .nano-pane.flashed {
+  visibility : visible\9; / Target only IE7 and IE8 with this hack /
+  opacity    : 0.99;
+}
+
+
+
+.nano .nano-content {
+ padding: 0 30px 0 0;
+ outline: none !important;
+}
+
+.nano .nano-pane {
+ width: 8px;
+ right: 1px;
+  margin: 5px;
+  border: 0;
+
+}
+
+.nano .nano-slider {
+display: none;
+cursor: pointer;
+}
+@media (max-width: 1365px) {
+   .topbar-item-default .currency p {
+    display: none;
+  }
+}
+@media (max-width: 1199px) {
+  .currency, .currency > *{
+	margin-left:0;
+  }
+  .currency-dollar::before, .currency-euro::before, .currency-rub:before{
+    margin-left:0;
+  }
+  .currency-list li{
+    margin-left:20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .weather .temp-air{
+	margin-right:6px
+  }
+  .currency p {
+	margin-left:0
+
+  }
+}
+
+
+
+
+@media (max-width: 7678px) {
+  .topbar-item-default{
+	position:static
+  }
+}
+@media (min-width: 768px) {
+  .content-wrapper > .col-sm-9{
+    width: 78%;
+  }
+  .right{
+    width: 32%;
+  }
+  
+}
+    
+
+

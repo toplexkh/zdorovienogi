@@ -1,0 +1,231 @@
+.error input{
+	border: 1px solid red;
+}
+.file_upload {
+    display: inline-block;
+    min-height: 18px;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+}
+.file_upload > input[type="file"] {
+    cursor: pointer;
+    font-size: 200px;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+}
+.file_upload:hover .btn-light-blue {
+	background-color: #1dc0ca; border-color: #1dc0ca; color: #ffffff;
+}
+.row-file .preview {
+    border-radius: 3px;
+    /*height: 95px;*/
+    overflow: hidden;
+    position: relative;
+    width: 300px;
+}
+.preview_container .preview {
+    display: inline-block;
+    margin-top: 5px;
+    position: relative;
+	text-align: center;
+}
+.preview_container .preview .panel {
+    background: none repeat scroll 0 0 #f1f3f6;
+    opacity: 0.5;
+	margin-top: 5px;
+    /*padding: 3px;*/
+	display: inline-block;
+    /*position: absolute;
+    right: 5px;
+    top: 5px;*/
+}
+.preview_container .preview .panel:hover {
+    opacity: 1;
+}
+.preview_container .preview .panel a {
+    display: block;
+    /*float: left;
+    margin: 0 3px;*/
+}
+.preview_container .preview .panel a:hover {
+    opacity: 0.5;
+}
+.preview_container .preview .panel > .delete {
+	padding: 5px 0;
+	font-size: 12px;
+	width: 86px;
+    /*background-image: url("/themes/melon/img/delete_garbage.png");
+    height: 16px;
+    width: 16px;*/
+}
+.progress {
+    background: none repeat scroll 0 0 #dfdfe7;
+    display: none;
+    height: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 300px;
+}
+.progress_bar > .bar {
+    background: none repeat scroll 0 0 #666;
+    height: 5px;
+    width: 0;
+}
+.coment-popup, .complaint-popup{
+	display: none;
+}
+.login-fb{
+    text-align: center;
+}
+@media (max-width: 767px) {
+    .login-fb{
+        text-align: right;
+    }
+}
+.login-vk{
+    text-align: center;
+}
+@media (max-width: 767px) {
+    .login-vk{
+        text-align: right;
+    }
+}
+
+
+.ratings {
+    margin-right: 20px;
+    margin-top: 96px;
+    overflow: hidden;
+    position: relative;
+    width: 150px;
+}
+.ratings .like, .ratings .dislike {
+    float: left;
+    width: 65px;
+}
+.ratings .like span, .ratings .dislike span {
+    color: #d8ceaa;
+    display: inline-block;
+    float: left;
+    font-family: "Noto Sans",sans-serif;
+    font-feature-settings: normal;
+    font-kerning: auto;
+    font-language-override: normal;
+    font-size: 16px;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-synthesis: weight style;
+    font-variant: normal;
+    font-weight: bold !important;
+    letter-spacing: -0.02em;
+    line-height: 37px;
+    width: 38px;
+}
+.ratings .like span.zero, .ratings .dislike span.zero {
+    color: #f3f0e7;
+}
+.ratings .like .btn-ratings, .ratings .dislike .btn-ratings {
+    background: url("http://public.od.ua/wp-content/themes/public/images/btn-ratings-news.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    cursor: pointer;
+    float: right;
+    font-size: 0.0009px;
+    height: 27px;
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 19px;
+}
+.ratings .like .btn-ratings:hover, .ratings .dislike .btn-ratings:hover {
+    background-position: 0 -27px;
+}
+.ratings .like .tooltip, .ratings .dislike .tooltip {
+    background-color: #fff;
+    display: none;
+    font: 11px/32px Arial,sans-serif;
+    letter-spacing: -0.02em;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+    width: 77px;
+}
+.ratings .like .tooltip a, .ratings .dislike .tooltip a {
+    color: #d3a84e;
+}
+.ratings .like .btn-ratings:hover + .tooltip, .ratings .dislike .btn-ratings:hover + .tooltip {
+    display: block;
+}
+.ratings .dislike {
+    float: right;
+}
+.ratings .dislike span {
+    color: #d8ceaa;
+    float: right;
+    text-align: right;
+}
+.ratings .dislike .btn-ratings {
+    background-position: -19px 0;
+    float: left;
+}
+.ratings .dislike .btn-ratings:hover {
+    background-position: -19px -27px;
+}
+.ratings .dislike .tooltip {
+    left: 0;
+    right: auto;
+    text-align: center;
+}
+.ratings .dislike .tooltip a {
+    color: #cd0000;
+}
+.ratings .like.active .btn-ratings {
+    background-position: 0 -27px;
+}
+.ratings .dislike.active .btn-ratings {
+    background-position: -19px -27px;
+}
+.ratings .ratings-line {
+    background-color: #d8ceaa;
+    clear: both;
+    height: 3px;
+    width: 100%;
+}
+.ratings p {
+    color: #7e7455;
+    font: 11px/22px Arial,sans-serif;
+    text-align: center;
+}
+.ratings.rated .ratings-line {
+    background-color: #cd0000;
+}
+.ratings.rated .ratings-line .like-line {
+    background-color: #a0cd18;
+    height: 3px;
+}
+.ratings.rated .dislike span {
+    color: #cd0000;
+}
+.ratings.rated .like span {
+    color: #d3a84e;
+}
+.flash-error{
+	border: 1px solid red;
+	margin: 10px 5px;
+	padding: 10px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.input-description.error{
+	color: red !important
+}
+
+.video-news img{
+    width:147px;
+}
+.rasporka{
+    margin-bottom: 26px;
+}
